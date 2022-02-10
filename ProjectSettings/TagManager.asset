@@ -9,6 +9,7 @@ TagManager:
   - Button
   - Enemy
   - Cutout
+  - Candy
   layers:
   - Default
   - TransparentFX
