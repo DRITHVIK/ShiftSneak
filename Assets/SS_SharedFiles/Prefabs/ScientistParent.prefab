@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4266185487549652013}
   - component: {fileID: 4266185487549652012}
   - component: {fileID: 4266185487549652003}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PatrolPoint5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 4266185488263557949}
   - component: {fileID: 4266185488263557948}
   - component: {fileID: 4266185488263557939}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PatrolPoint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 4266185488491269766}
   - component: {fileID: 4266185488491269765}
   - component: {fileID: 4266185488491269764}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PatrolPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 4266185488761008759}
   - component: {fileID: 4266185488761008758}
   - component: {fileID: 4266185488761008757}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PatrolPoint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,7 +421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4266185489013274113}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PatrolPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 4266185489104813154}
   - component: {fileID: 4266185489104813153}
   - component: {fileID: 4266185489104813152}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: PatrolPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
