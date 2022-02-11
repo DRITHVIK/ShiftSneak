@@ -9,6 +9,7 @@ TagManager:
   - Button
   - Enemy
   - Cutout
+  - Candy
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - PlayerHitbox
   - lastKnownLocation
   - Guard
-  - 
+  - PatrolPoints
   - 
   - 
   - 
