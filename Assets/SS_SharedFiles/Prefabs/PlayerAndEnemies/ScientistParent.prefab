@@ -553,6 +553,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7988162073129637896, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: m_Speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"collection":{"$content":[{"name":"Collider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint1","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint2","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint3","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint4","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackPoint","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Body","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Gun-Aiming","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Gun-Held","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Rotation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ViewCone","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"AmmoCount","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"PatrolEnabled","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Patrolpoints","value":{"$content":[10,11,12,13,14],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,

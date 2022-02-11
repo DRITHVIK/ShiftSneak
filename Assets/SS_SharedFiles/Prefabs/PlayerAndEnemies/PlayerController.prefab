@@ -1088,7 +1088,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283939464619377684}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -1208,7 +1208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &283939464737543143
 Transform:
   m_ObjectHideFlags: 0
@@ -1218,7 +1218,7 @@ Transform:
   m_GameObject: {fileID: 283939464737543142}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.914, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 283939464967157061}
   m_RootOrder: 1
@@ -2039,7 +2039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerBox","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerButton","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Transformed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Trigger1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerSegway","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerSpeed","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"StandingStill","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"NoLook","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"DamageCollider","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EmptyUI","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"BoxUI","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ButtonUI","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SegwayUI","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"playerStateEmpty","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CutoutUI","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerCutout","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Rotating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerBox","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerButton","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Transformed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Trigger1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerSegway","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerSpeed","value":{"$content":4,"$type":"System.Int32"},"$version":"A"},{"name":"StandingStill","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"NoLook","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"DamageCollider","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EmptyUI","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"BoxUI","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ButtonUI","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SegwayUI","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"playerStateEmpty","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CutoutUI","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerCutout","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Rotating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 283939465081194567}
     - {fileID: 283939464737543142}
