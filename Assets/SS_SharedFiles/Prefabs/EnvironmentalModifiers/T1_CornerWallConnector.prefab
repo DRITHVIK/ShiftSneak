@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 7253415859001628449}
   - component: {fileID: 5982632837922494596}
   - component: {fileID: 8422403755741670478}
-  - component: {fileID: 9133383840991130183}
-  m_Layer: 0
+  - component: {fileID: 4770010878427418143}
+  m_Layer: 9
   m_Name: T1_CornerWallConnector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7253415859001628449
 Transform:
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &9133383840991130183
-MeshCollider:
+--- !u!65 &4770010878427418143
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,7 +94,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4561334635903531653, guid: 65adfeeed4ea5dd4a9471c576f11604b, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.6804033, y: 2.5, z: 0.682869}
+  m_Center: {x: 0.25347307, y: 1.25, z: -0.33886734}
