@@ -28,12 +28,12 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.115
+    m_Value: 0.207
     min: 0
     max: 1
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.712
+    m_Value: 0.84
     min: 0.01
     max: 1
   roundness:
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
@@ -411,7 +411,7 @@ MonoBehaviour:
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.473
+    m_Value: 0.271
     min: 0
     max: 1
   scatter:
