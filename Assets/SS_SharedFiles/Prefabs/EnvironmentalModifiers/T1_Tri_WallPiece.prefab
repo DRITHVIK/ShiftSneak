@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2558613739173572484}
   - component: {fileID: 317207911330683726}
   - component: {fileID: 1416214183819446216}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: T1_Tri_WallPiece
   m_TagString: Untagged
   m_Icon: {fileID: 0}

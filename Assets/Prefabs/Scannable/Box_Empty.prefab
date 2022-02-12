@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3556423031514947439}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Box_Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 771170231}
   - component: {fileID: 501416262489173935}
   - component: {fileID: 1259645449}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
