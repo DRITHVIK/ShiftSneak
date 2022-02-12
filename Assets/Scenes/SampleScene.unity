@@ -11273,7 +11273,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.63924396, y: 0.0000000033079448, z: -0.0000000027497695, w: 0.76900405}
+  m_LocalRotation: {x: 0.63924396, y: 0.0000000033079444, z: -0.000000002749769, w: 0.76900405}
   m_LocalPosition: {x: -0.13398552, y: 11.489, z: -1.927784}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -17770,7 +17770,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578000262}
-  m_LocalRotation: {x: 0.63924396, y: 0.0000000033079448, z: -0.0000000027497695, w: 0.76900405}
+  m_LocalRotation: {x: 0.63924396, y: 0.0000000033079444, z: -0.000000002749769, w: 0.76900405}
   m_LocalPosition: {x: -0.13398552, y: 11.489, z: -1.927784}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -21293,24 +21293,6 @@ Transform:
   m_Father: {fileID: 1032212767}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1920819762 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1606688789986715039, guid: b56b8502d7ab12f4cba1636b38b21439, type: 3}
-  m_PrefabInstance: {fileID: 1606688790838927317}
-  m_PrefabAsset: {fileID: 0}
---- !u!135 &1920819767
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920819762}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.35
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1923959892
 GameObject:
   m_ObjectHideFlags: 0
@@ -24053,15 +24035,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1606688789986715038, guid: b56b8502d7ab12f4cba1636b38b21439, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.485
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606688790835173510, guid: b56b8502d7ab12f4cba1636b38b21439, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"DedicatedCareTaker","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint1","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint2","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint3","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint4","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint5","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"AttackPoint","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ViewCone","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"checkingCamera","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"inMeleeRange","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PatrolPoints","value":{"$content":[8,9,10,11,12],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Bark","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Curious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Caretaker","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"?Text","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Barktext","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StartLoc","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"CaretakerPatrols","value":{"$content":[{"$content":16,"$type":"UnityEngine.Object"},{"$content":17,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Eating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 1606688790835173510, guid: b56b8502d7ab12f4cba1636b38b21439, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
@@ -24118,8 +24091,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: DogParent
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1606688790835173530, guid: b56b8502d7ab12f4cba1636b38b21439, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b56b8502d7ab12f4cba1636b38b21439, type: 3}
 --- !u!1001 &3556423033116777082
 PrefabInstance:
@@ -24741,10 +24713,6 @@ PrefabInstance:
     - target: {fileID: 6233499039254397887, guid: b6b153b167af4fd4fa537f142bbb314b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6233499039359134747, guid: b6b153b167af4fd4fa537f142bbb314b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.315
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6b153b167af4fd4fa537f142bbb314b, type: 3}

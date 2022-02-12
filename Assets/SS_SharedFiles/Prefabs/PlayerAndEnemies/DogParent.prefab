@@ -775,6 +775,7 @@ GameObject:
   - component: {fileID: 1606688789986715035}
   - component: {fileID: 1606688789986715032}
   - component: {fileID: 1606688789986715033}
+  - component: {fileID: 1920819767}
   m_Layer: 0
   m_Name: Guard_Collider
   m_TagString: Untagged
@@ -790,8 +791,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606688789986715039}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.327, z: 0}
-  m_LocalScale: {x: 1, y: 0.673, z: 1}
+  m_LocalPosition: {x: 0, y: -0.485, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.55, z: 1.25}
   m_Children:
   - {fileID: 1606688789911721686}
   m_Father: {fileID: 1606688790835173505}
@@ -859,6 +860,19 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &1920819767
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606688789986715039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.35
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1606688790632992812
 GameObject:
@@ -968,7 +982,6 @@ GameObject:
   - component: {fileID: 1606688790835173511}
   - component: {fileID: 1606688790835173508}
   - component: {fileID: 1606688790835173509}
-  - component: {fileID: 1606688790835173530}
   m_Layer: 12
   m_Name: Dog AI
   m_TagString: Untagged
@@ -1009,7 +1022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"DedicatedCareTaker","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint1","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint2","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint3","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint4","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint5","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"AttackPoint","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ViewCone","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"checkingCamera","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"inMeleeRange","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PatrolPoints","value":{"$content":[8,9,10,11,12],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Bark","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Caretaker","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Barktext","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StartLoc","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"CaretakerPatrols","value":{"$content":[{"$content":15,"$type":"UnityEngine.Object"},{"$content":16,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Bark","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Curious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Caretaker","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"?Text","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Barktext","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StartLoc","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"CaretakerPatrols","value":{"$content":[{"$content":16,"$type":"UnityEngine.Object"},null],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Eating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
     - {fileID: 991203363}
@@ -1082,19 +1095,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &1606688790835173530
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606688790835173531}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1606688790914779842
 GameObject:
   m_ObjectHideFlags: 0
