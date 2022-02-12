@@ -117,7 +117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6951648188604478968
 Transform:
   m_ObjectHideFlags: 0
@@ -126,7 +126,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4656297221964990498}
   m_LocalRotation: {x: -0.37689704, y: -0.0000014305114, z: 0.00000058114523, w: -0.92625517}
-  m_LocalPosition: {x: -0.984, y: 2.391, z: 0.142}
+  m_LocalPosition: {x: -0.984, y: 2.391, z: -0.24}
   m_LocalScale: {x: 0, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2925112194912359414}
@@ -144,7 +144,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.5102041, b: 0, a: 1}
-  m_Intensity: 22.435669
+  m_Intensity: 6.745395
   m_Range: 1.07
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -214,7 +214,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 281.93494
+  m_Intensity: 84.76514
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -341,13 +341,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7432456239448201420}
-  m_LocalRotation: {x: 0.47221592, y: -0.0000013113021, z: -0.0000007152557, w: -0.8814829}
-  m_LocalPosition: {x: -0.984, y: 0.155, z: 0.113}
+  m_LocalRotation: {x: 0.9415239, y: -0.0000006109476, z: -0.0000009536743, w: -0.3369463}
+  m_LocalPosition: {x: -0.98, y: 0.063, z: -0.36}
   m_LocalScale: {x: 0, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2925112194912359414}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -56.356, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: -140.618, y: 0, z: 0}
 --- !u!108 &1807944306751394898
 Light:
   m_ObjectHideFlags: 0
@@ -359,9 +359,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.5102041, b: 0, a: 1}
-  m_Intensity: 22.435669
-  m_Range: 1.07
+  m_Color: {r: 0, g: 0.80465317, b: 1, a: 1}
+  m_Intensity: 81.19422
+  m_Range: 12.76
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -405,8 +405,8 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1.03}
-  m_UseBoundingSphereOverride: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 12.76}
+  m_UseBoundingSphereOverride: 1
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -427,10 +427,10 @@ MonoBehaviour:
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
   m_ObsoleteContactShadows: 0
-  m_PointlightHDType: 0
+  m_PointlightHDType: 1
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 281.93494
+  m_Intensity: 54.433895
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0

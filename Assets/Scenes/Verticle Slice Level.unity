@@ -153,6 +153,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &1602358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,6 +168,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!4 &1602359
 Transform:
   m_ObjectHideFlags: 0
@@ -1765,6 +1771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Caretaker Empty
       objectReference: {fileID: 0}
+    - target: {fileID: 6233499039254397886, guid: b6b153b167af4fd4fa537f142bbb314b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6233499039254397887, guid: b6b153b167af4fd4fa537f142bbb314b, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -2738,7 +2748,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -3903,6 +3913,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &124334983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3915,6 +3928,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!4 &124827536 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7969225680355088021, guid: b9d9c59b71611ad45b319ab2049a625e, type: 3}
@@ -7422,6 +7438,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 506988876}
     m_Modifications:
+    - target: {fileID: 1807944306751394898, guid: 40e415278de6f7b49b7502da56d3a275, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1807944306751394898, guid: 40e415278de6f7b49b7502da56d3a275, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2490259893558612838, guid: 40e415278de6f7b49b7502da56d3a275, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2581625434178996556, guid: 40e415278de6f7b49b7502da56d3a275, type: 3}
       propertyPath: m_Name
       value: Wall (39)
@@ -7469,6 +7497,10 @@ PrefabInstance:
     - target: {fileID: 2925112194912359414, guid: 40e415278de6f7b49b7502da56d3a275, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432456239448201420, guid: 40e415278de6f7b49b7502da56d3a275, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40e415278de6f7b49b7502da56d3a275, type: 3}
@@ -7961,7 +7993,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -10372,7 +10404,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -12952,6 +12984,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &464797178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12964,6 +12999,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!4 &464797179
 Transform:
   m_ObjectHideFlags: 0
@@ -14636,6 +14674,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40e415278de6f7b49b7502da56d3a275, type: 3}
+--- !u!1 &521556978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 283939465198749641, guid: 1c003091f5d5b1c45983383a50b93cab, type: 3}
+  m_PrefabInstance: {fileID: 283939464153381320}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &522009390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20368,6 +20411,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &742355272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20380,6 +20426,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!65 &742355273
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20731,7 +20780,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -22014,7 +22063,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -22718,7 +22767,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -23449,6 +23498,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &823526135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23461,6 +23513,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!65 &823526136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25334,7 +25389,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -26711,7 +26766,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -27250,7 +27305,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 0
+  antialiasing: 1
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0
@@ -30052,6 +30107,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &1084301040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30064,6 +30122,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!54 &1084301041
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31054,7 +31115,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -33023,7 +33084,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -35040,7 +35101,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -36432,6 +36493,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &1340643606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36444,6 +36508,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!54 &1340643607
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39332,6 +39399,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &1426129981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39344,6 +39414,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!4 &1426332565 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7969225680355088021, guid: b9d9c59b71611ad45b319ab2049a625e, type: 3}
@@ -39796,7 +39869,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -40631,7 +40704,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -45757,7 +45830,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -45910,6 +45983,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &1670808429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45922,6 +45998,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!4 &1670808430
 Transform:
   m_ObjectHideFlags: 0
@@ -46347,6 +46426,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &1681688369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46359,6 +46441,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!65 &1681688370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47383,7 +47468,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -49392,6 +49477,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &1827799331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49404,6 +49492,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1828979650
 GameObject:
   m_ObjectHideFlags: 0
@@ -49612,6 +49703,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &1839644799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49624,6 +49718,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!65 &1839644800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49971,6 +50068,12 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerCamera","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Hidden","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Chase","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Respawn","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HighlightedObject","value":null,"$version":"A"},{"name":"PlayerMouse","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"playerInRange","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"InEnemyView","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"lastKnowPosition-Empty","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Whistle","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"LastSeen","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Seen","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Rightclick","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Eating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 521556978}
+    - {fileID: 1578000262}
+    - {fileID: 1670808427}
 --- !u!4 &1861720283
 Transform:
   m_ObjectHideFlags: 0
@@ -53178,6 +53281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DogParent
       objectReference: {fileID: 0}
+    - target: {fileID: 9205651473301224077, guid: b56b8502d7ab12f4cba1636b38b21439, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b56b8502d7ab12f4cba1636b38b21439, type: 3}
 --- !u!4 &1966112552 stripped
@@ -56159,6 +56266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyMophlengParent
       objectReference: {fileID: 0}
+    - target: {fileID: 1317979783636031599, guid: 6603b5685c2e6d0408de8aea370b0239, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6603b5685c2e6d0408de8aea370b0239, type: 3}
 --- !u!1001 &2061243915
@@ -56373,7 +56484,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.90656525, b: 0.8066038, a: 1}
+  m_Color: {r: 0.9084644, g: 0.80784315, b: 1, a: 1}
   m_Intensity: 34.920578
   m_Range: 10
   m_SpotAngle: 30
@@ -56662,6 +56773,9 @@ MonoBehaviour:
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &2066157696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56674,6 +56788,9 @@ MonoBehaviour:
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!65 &2066157697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58990,6 +59107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScientistParent
       objectReference: {fileID: 0}
+    - target: {fileID: 4266185487743775062, guid: 8bdbf9d3bfd936b4fa9a9b4a0a8cb8ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4266185487743775063, guid: 8bdbf9d3bfd936b4fa9a9b4a0a8cb8ab, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -59090,6 +59211,10 @@ PrefabInstance:
     - target: {fileID: 283939465198749642, guid: 1c003091f5d5b1c45983383a50b93cab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 283939465198749644, guid: 1c003091f5d5b1c45983383a50b93cab, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"PlayerCollider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerBox","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerButton","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Transformed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Trigger1","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerSegway","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerSpeed","value":{"$content":4,"$type":"System.Int32"},"$version":"A"},{"name":"StandingStill","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"NoLook","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"DamageCollider","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EmptyUI","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"BoxUI","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ButtonUI","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SegwayUI","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"playerStateEmpty","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CutoutUI","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerCutout","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Rotating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 283939465198749644, guid: 1c003091f5d5b1c45983383a50b93cab, type: 3}
       propertyPath: _data._objectReferences.Array.data[6]
