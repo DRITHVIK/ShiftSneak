@@ -254,7 +254,7 @@ Transform:
   m_GameObject: {fileID: 6233499039381352812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.85, z: 1}
   m_Children:
   - {fileID: 6233499039359134747}
   - {fileID: 6233499040252203878}
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PatrolPoint1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint3","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint4","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"AttackPoint","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ViewCone","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"checkingCamera","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Searching","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"PatrolPoint1","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint2","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint3","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint4","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"AttackPoint","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ViewCone","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"checkingCamera","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Searching","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPointsCaretaker","value":{"$content":[{"$content":7,"$type":"UnityEngine.Object"},{"$content":8,"$type":"UnityEngine.Object"},{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Bark","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ActivePatrolpoints","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6233499039930732510}
     - {fileID: 6233499041171739921}
@@ -285,6 +285,10 @@ MonoBehaviour:
     - {fileID: 6233499040252203883}
     - {fileID: 6233499040168379461}
     - {fileID: 6233499040781175242}
+    - {fileID: 6233499040676887491}
+    - {fileID: 6233499039352900964}
+    - {fileID: 6233499041171739921}
+    - {fileID: 6233499039930732510}
 --- !u!114 &6233499039381352810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,7 +315,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 2.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 200
@@ -603,8 +607,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6233499040168379461}
   m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: -0.05, y: 0, z: 14.71}
-  m_LocalScale: {x: 20, y: 1.3, z: 20}
+  m_LocalPosition: {x: -0.05, y: -0.23, z: 14.71}
+  m_LocalScale: {x: 20, y: 1.9467498, z: 20}
   m_Children: []
   m_Father: {fileID: 6233499039381352808}
   m_RootOrder: 2
