@@ -1283,8 +1283,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606688790835173531}
-  m_LocalRotation: {x: -0, y: 0.53965944, z: -0, w: 0.8418835}
-  m_LocalPosition: {x: -2.61, y: 0, z: 3.36}
+  m_LocalRotation: {x: -0, y: 0.6391615, z: -0, w: 0.7690725}
+  m_LocalPosition: {x: 1.42, y: 0, z: 7.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1606688789986715038}
@@ -1295,7 +1295,7 @@ Transform:
   - {fileID: 1767646090103652054}
   m_Father: {fileID: 8223397813182816871}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 65.321, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 79.459, z: 0}
 --- !u!114 &1606688790835173510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1310,7 +1310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"DedicatedCareTaker","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint1","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint2","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint3","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint4","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint5","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"FeedPoint","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ViewCone","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"checkingCamera","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"inMeleeRange","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PatrolPoints","value":{"$content":[8,9,10,11,12],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Bark","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Curious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Caretaker","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"?Text","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Barktext","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StartLoc","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"CaretakerPatrols","value":{"$content":[{"$content":16,"$type":"UnityEngine.Object"},{"$content":17,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Eating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Scanablecanvas","value":{"$content":18,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Fed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Bark","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Curious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Caretaker","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"?Text","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Barktext","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"feedindicator","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StartLoc","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"CaretakerPatrols","value":{"$content":[{"$content":17,"$type":"UnityEngine.Object"},{"$content":18,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Eating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Scanablecanvas","value":{"$content":19,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Fed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
     - {fileID: 991203363}
@@ -1328,6 +1328,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 8878906518224578795}
     - {fileID: 1606688791063839940}
+    - {fileID: 8217655387861037892}
     - {fileID: 242602148291929457}
     - {fileID: 4243850338673661708}
     - {fileID: 0}
@@ -1874,7 +1875,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1767646090103652054
 Transform:
   m_ObjectHideFlags: 0
