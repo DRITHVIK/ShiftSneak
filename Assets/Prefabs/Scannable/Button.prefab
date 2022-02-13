@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4323576056325734966}
   - component: {fileID: 4323576056325734965}
   - component: {fileID: 4323576056325734964}
-  m_Layer: 2
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ BoxCollider:
   m_GameObject: {fileID: 4323576056325799370}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 4323576056798256970}
   - component: {fileID: 4323576056798256969}
   - component: {fileID: 4323576056798256968}
-  m_Layer: 2
+  m_Layer: 7
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ BoxCollider:
   m_GameObject: {fileID: 4323576056798256974}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 4323576057177020913}
   - component: {fileID: 4323576057177020912}
   - component: {fileID: 4323576057177020919}
-  m_Layer: 2
+  m_Layer: 7
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ BoxCollider:
   m_GameObject: {fileID: 4323576057177020917}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 4323576057314636126}
   - component: {fileID: 4323576057314636127}
   - component: {fileID: 2870929894117128375}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
