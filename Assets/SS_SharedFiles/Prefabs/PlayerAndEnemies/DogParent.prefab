@@ -1347,7 +1347,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: eff12e30d28695846a199849beaa8b7d, type: 2}
+    - {fileID: 11400000, guid: 4b35bdcc1066e6c49862c41c35c7368e, type: 2}
 --- !u!195 &1606688790835173508
 NavMeshAgent:
   m_ObjectHideFlags: 0

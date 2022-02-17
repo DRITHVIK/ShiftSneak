@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 2896727996419790607}
   - component: {fileID: 2299362975922483129}
   - component: {fileID: 1146515512491148786}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: Door_Right.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2896727996419790607
 Transform:
   m_ObjectHideFlags: 0
@@ -92,13 +92,13 @@ GameObject:
   - component: {fileID: 5645448107095541618}
   - component: {fileID: 4943045786286724836}
   - component: {fileID: 5951655078818842506}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: Door_Right.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5645448107095541618
 Transform:
   m_ObjectHideFlags: 0
@@ -140,7 +140,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9003353085549565770, guid: a907b71258577f24287ab82bd4eb838a, type: 3}
+  - {fileID: 2100000, guid: fd3d108f46417f44b854f36ca5f1a79c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 928377734263788384}
   - component: {fileID: 5827041100229488977}
   - component: {fileID: 5391414017970123847}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: Door_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8285838049631358629}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: T1_Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
