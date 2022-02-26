@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4890d06627b826e41b4f9feb047a2bee
+guid: d159a45da04b41f46834ad480b95f7ad
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,43 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Blue
-    second: {fileID: 2100000, guid: cda5cb866e771ed4cb62ba19488f3f4c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Blue.023
-    second: {fileID: 2100000, guid: 292a77a1c6c944b4a8a5a9303235baf1, type: 2}
+    second: {fileID: 2100000, guid: f3923896bdd76934186909fe0958d355, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Green
-    second: {fileID: 2100000, guid: fad59d98a41f97049b72f420b65dac45, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Green.021
-    second: {fileID: 2100000, guid: df6e04f5111072c499c5ca4fad66fa43, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Light
-    second: {fileID: 2100000, guid: 325d1c0d521add946b6be58a66dde0b0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Light.006
-    second: {fileID: 2100000, guid: a939bd4b447b1e84681ee20d32924ddf, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Orange
-    second: {fileID: 2100000, guid: 0a48c2d3e64edf840b85caf49011abf9, type: 2}
+      name: Light.010
+    second: {fileID: 2100000, guid: 9516543afaa782e459492df361064ea1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pink.010
-    second: {fileID: 2100000, guid: 353b8abb4d138fd4d98953dac7e42131, type: 2}
+    second: {fileID: 2100000, guid: 6842d26cdbcbc5946a9a44115ef0ff39, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
