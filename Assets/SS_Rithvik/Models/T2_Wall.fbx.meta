@@ -6,7 +6,32 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 163128c218fe8a54f9f91845ffd0d5d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T2_WallBand
+    second: {fileID: 2100000, guid: 1cd1f53587e88fb46898d572bf29b9da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T2_WallMain
+    second: {fileID: 2100000, guid: 8be7934da75b17c41be7f4da77bad342, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T2_WallPillars
+    second: {fileID: 2100000, guid: 2d83d24b9f0ac6940adf793b2086694d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T2_Wall_Light
+    second: {fileID: 2100000, guid: cf68d93c3c6889c4e95589014810a2aa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
