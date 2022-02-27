@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 610b4f70d9a2d6149ad8752c63c672a2
+guid: 9384e80a54fb69c458c2e78cffea8bc6
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
@@ -10,28 +10,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: 03 - Default
-    second: {fileID: 2100000, guid: 12b7b1c0edce99240850066862da5ee8, type: 2}
+      name: Blue.028
+    second: {fileID: 2100000, guid: 292a77a1c6c944b4a8a5a9303235baf1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: T2_WallBand
-    second: {fileID: 2100000, guid: e6f094475a2c74f49aefaaf73a485fde, type: 2}
+      name: Green.026
+    second: {fileID: 2100000, guid: df6e04f5111072c499c5ca4fad66fa43, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: T2_WallMain
-    second: {fileID: 2100000, guid: 5606669cb6ef75b4fb3b71ba0a715553, type: 2}
+      name: Light.010
+    second: {fileID: 2100000, guid: df6e04f5111072c499c5ca4fad66fa43, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: T2_WallPillars
-    second: {fileID: 2100000, guid: f9916b654865433409fa9ad947e2d9ac, type: 2}
+      name: Material.001
+    second: {fileID: 2100000, guid: 9516543afaa782e459492df361064ea1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: T2_Wall_Light
-    second: {fileID: 2100000, guid: bed20b1a18834144f8198b42c8e6e442, type: 2}
+      name: Pink.012
+    second: {fileID: 2100000, guid: 75727d2479c74e747ab95b8495e7dc03, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

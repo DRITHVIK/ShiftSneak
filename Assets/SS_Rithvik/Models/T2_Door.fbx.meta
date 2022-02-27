@@ -1,37 +1,12 @@
 fileFormatVersion: 2
-guid: 610b4f70d9a2d6149ad8752c63c672a2
+guid: 0ffdef4d8ff6e4241b89aa3a608ecb13
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 03 - Default
-    second: {fileID: 2100000, guid: 12b7b1c0edce99240850066862da5ee8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: T2_WallBand
-    second: {fileID: 2100000, guid: e6f094475a2c74f49aefaaf73a485fde, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: T2_WallMain
-    second: {fileID: 2100000, guid: 5606669cb6ef75b4fb3b71ba0a715553, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: T2_WallPillars
-    second: {fileID: 2100000, guid: f9916b654865433409fa9ad947e2d9ac, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: T2_Wall_Light
-    second: {fileID: 2100000, guid: bed20b1a18834144f8198b42c8e6e442, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
