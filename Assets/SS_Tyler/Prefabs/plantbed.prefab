@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5404850056324255952}
   - component: {fileID: 8521493244286947409}
   - component: {fileID: 3824885182222820304}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Box008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 7549590291330331071}
   - component: {fileID: 1474811637882960082}
   - component: {fileID: 5774669639569698241}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Box006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3356788587232459983}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: plantbed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 1293669376892560493}
   - component: {fileID: 8701387036855067936}
   - component: {fileID: 8411169613815590739}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cylinder013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 6420733949642469177}
   - component: {fileID: 6170419175713017742}
   - component: {fileID: 6184324699926024352}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cylinder014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 3263494624432397019}
   - component: {fileID: 2571812054138177010}
   - component: {fileID: 4183500374722686796}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Box009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 4218659137701941675}
   - component: {fileID: 7678284935801920215}
   - component: {fileID: 3460791325870940563}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cylinder012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +541,9 @@ GameObject:
   - component: {fileID: 8382989689692891840}
   - component: {fileID: 825542821042137411}
   - component: {fileID: 1456480736498047334}
-  m_Layer: 0
+  - component: {fileID: 1961301409493765900}
+  - component: {fileID: 5006399072988568501}
+  m_Layer: 16
   m_Name: Box002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -611,6 +613,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &1961301409493765900
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322365458553683846}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.095, y: 0.07700001, z: 0.024}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0.024}
+  m_TimeToStationary: 0.5
+--- !u!65 &5006399072988568501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322365458553683846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.18750934, y: 0.15355642, z: 0.048636887}
+  m_Center: {x: 0, y: 0.000023208562, z: 0.024318444}
 --- !u!1 &4578842893950592052
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,7 +653,7 @@ GameObject:
   - component: {fileID: 3024646971754861566}
   - component: {fileID: 2849753168304919849}
   - component: {fileID: 3175611170404401970}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -694,7 +725,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -838,7 +869,7 @@ GameObject:
   - component: {fileID: 1655292204775298050}
   - component: {fileID: 1733652187509793824}
   - component: {fileID: 5879832224160780309}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Object006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -919,7 +950,7 @@ GameObject:
   - component: {fileID: 3550265320198359830}
   - component: {fileID: 113781374381015021}
   - component: {fileID: 981448060102744635}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cylinder006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1031,7 @@ GameObject:
   - component: {fileID: 8080571186761499837}
   - component: {fileID: 8784364543599693938}
   - component: {fileID: 463909150869844948}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Object007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1081,7 +1112,7 @@ GameObject:
   - component: {fileID: 7435692493353889390}
   - component: {fileID: 2134331645182409633}
   - component: {fileID: 4692256542891894409}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Object008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1162,7 +1193,7 @@ GameObject:
   - component: {fileID: 6658644117173142529}
   - component: {fileID: 5134414184554327760}
   - component: {fileID: 7934002946089960882}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Object004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1210,7 +1241,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e7fe9a75183e36c438c119349ee6cc55, type: 2}
+  - {fileID: 2100000, guid: 1f9b880c621df03499977f0d60a09807, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1243,7 +1274,7 @@ GameObject:
   - component: {fileID: 5350206588810321831}
   - component: {fileID: 3232600272317014166}
   - component: {fileID: 2155102948361324284}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Box007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
