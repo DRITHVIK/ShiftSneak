@@ -224,7 +224,7 @@ MonoBehaviour:
     colorBufferFormat: 74
     supportCustomPass: 1
     customBufferFormat: 12
-    supportedLitShaderMode: 2
+    supportedLitShaderMode: 3
     planarReflectionResolution:
       m_Values: 000100000004000000040000
       m_SchemaId:
@@ -239,8 +239,8 @@ MonoBehaviour:
     decalLayerName5: Decal Layer 5
     decalLayerName6: Decal Layer 6
     decalLayerName7: Decal Layer 7
-    msaaSampleCount: 1
-    supportMotionVectors: 1
+    msaaSampleCount: 8
+    supportMotionVectors: 0
     supportRuntimeDebugDisplay: 0
     supportRuntimeAOVAPI: 0
     supportDitheringCrossFade: 1
@@ -315,7 +315,7 @@ MonoBehaviour:
       lutFormat: 48
       bufferFormat: 74
     dynamicResolutionSettings:
-      enabled: 0
+      enabled: 1
       maxPercentage: 100
       minPercentage: 100
       dynResType: 1
