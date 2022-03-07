@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 4995394668334805768}
   - component: {fileID: 6871610699493537310}
   - component: {fileID: 644923480}
-  - component: {fileID: 1573705586}
   m_Layer: 0
   m_Name: Door_Right
   m_TagString: Untagged
@@ -125,20 +124,7 @@ BoxCollider:
   m_GameObject: {fileID: 8120198554168817710}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 35.79473, y: 228.87755, z: 147.57474}
-  m_Center: {x: -16.298859, y: 118.13302, z: 49.050056}
---- !u!65 &1573705586
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8120198554168817710}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 35.79473, y: 228.87755, z: 147.57474}
   m_Center: {x: -16.298859, y: 118.13302, z: 49.050056}
@@ -254,7 +240,6 @@ GameObject:
   - component: {fileID: 2550857009433991983}
   - component: {fileID: 7255889001407928444}
   - component: {fileID: 644923481}
-  - component: {fileID: 1573705587}
   m_Layer: 0
   m_Name: Door_Left
   m_TagString: Untagged
@@ -334,20 +319,7 @@ BoxCollider:
   m_GameObject: {fileID: 8825391015587726395}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 11.418796, y: 228.72552, z: 116.3459}
-  m_Center: {x: -17.75327, y: 118.05701, z: 159.5996}
---- !u!65 &1573705587
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8825391015587726395}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 11.418796, y: 228.72552, z: 116.3459}
   m_Center: {x: -17.75327, y: 118.05701, z: 159.5996}
