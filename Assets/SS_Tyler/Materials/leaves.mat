@@ -111,7 +111,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_0d9e866dc6cd46d2be3edb0af4441bc4: {r: 0, g: 0.2509804, b: 1.4980392, a: 0}
-    - Color_790405027fd94887bf851db907799a21: {r: 1.4980392, g: 0.07058824, b: 0.23529412, a: 0}
+    - Color_790405027fd94887bf851db907799a21: {r: 0.3908864, g: 0.4941122, b: 1.3584906, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
