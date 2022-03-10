@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1135132503746425601}
   - component: {fileID: 2892502515979306955}
   - component: {fileID: 522009393}
+  - component: {fileID: 1957189937540858108}
   m_Layer: 14
   m_Name: T1_FloorSmallConnector
   m_TagString: Untagged
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 78be0c64cd6d0b84b91b524f9f9d8c5d, type: 2}
+  - {fileID: 2100000, guid: 237f7e6304a4a5e45a861664b063c895, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,6 +84,19 @@ MeshRenderer:
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &522009393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3685290051105809950}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.191977, y: 0.029865114, z: 1.1872859}
+  m_Center: {x: -4.3614e-40, y: 0.014932557, z: 0.59364295}
+--- !u!65 &1957189937540858108
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -654,7 +654,7 @@ GameObject:
   - component: {fileID: 2849753168304919849}
   - component: {fileID: 3175611170404401970}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Plantlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -686,7 +686,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 88.7518
+  m_Intensity: 257.47144
   m_Range: 1.52
   m_SpotAngle: 175
   m_InnerSpotAngle: 1
@@ -729,7 +729,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
-  m_ColorTemperature: 4000
+  m_ColorTemperature: 7577
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1.52}
   m_UseBoundingSphereOverride: 1
@@ -756,7 +756,7 @@ MonoBehaviour:
   m_PointlightHDType: 1
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 69.705505
+  m_Intensity: 202.2176
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 76.2
