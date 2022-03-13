@@ -19,6 +19,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Pink.010
     second: {fileID: 2100000, guid: 6842d26cdbcbc5946a9a44115ef0ff39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: f046ca36cbdf5c94f81cbcd9a5b3fc1b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
