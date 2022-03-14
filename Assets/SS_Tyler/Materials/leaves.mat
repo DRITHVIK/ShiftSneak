@@ -39,7 +39,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_d0468975406d4a09893bdde9a3bce34b:
-        m_Texture: {fileID: 2800000, guid: d8958f6fd8f3236468369f55365e9e61, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2d34dd4b6e628144c9082fa287e8c71b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture3D_68f21303ca2e4228b6d8e225c571a140:
@@ -110,8 +110,8 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_0d9e866dc6cd46d2be3edb0af4441bc4: {r: 0, g: 0.2509804, b: 1.4980392, a: 0}
-    - Color_790405027fd94887bf851db907799a21: {r: 0.3908864, g: 0.4941122, b: 1.3584906, a: 0}
+    - Color_0d9e866dc6cd46d2be3edb0af4441bc4: {r: 0.8867924, g: 0.008863617, b: 0, a: 0}
+    - Color_790405027fd94887bf851db907799a21: {r: 0, g: 0.7253125, b: 1, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

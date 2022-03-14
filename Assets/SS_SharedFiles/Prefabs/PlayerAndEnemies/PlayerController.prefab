@@ -1404,7 +1404,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 283939464759976971}
-  - component: {fileID: 283939464759976972}
   m_Layer: 8
   m_Name: PlayerSegway
   m_TagString: Player
@@ -1427,19 +1426,6 @@ Transform:
   m_Father: {fileID: 283939464967157061}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &283939464759976972
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283939464759976970}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6, y: 0.94, z: 0.34}
-  m_Center: {x: 0, y: 0.000000029802322, z: 0}
 --- !u!1 &283939464792086985
 GameObject:
   m_ObjectHideFlags: 0
