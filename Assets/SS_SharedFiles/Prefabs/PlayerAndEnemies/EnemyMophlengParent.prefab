@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 71f1a5e63d637694d843d7bcc69c620c, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.37671423, a: 0.62352943}
+  m_Color: {r: 0, g: 1, b: 0.22719026, a: 0.50980395}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -142,7 +142,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2505642851634945670, guid: 6e16aa0a78613cd4e8e322f6018ece42, type: 3}
+  - {fileID: -2505642851634945670, guid: f3116a0d6ac4fc64a9023cb4c1163b82, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -208,7 +208,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317979783514903520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.01, y: -0.449, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.6, z: 1}
   m_Children:
   - {fileID: 1317979783897550764}
@@ -295,12 +295,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Runaway","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Chase","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Eating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ViewCone","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Trigger_StealFromPlayer","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Trigger_PlayerSteal","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MophlengCandyCount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"debugeat","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Runaway","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Chase","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Eating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ViewCone","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Trigger_StealFromPlayer","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Trigger_PlayerSteal","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MophlengCandyCount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"debugeat","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CanSee","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ViewconeUI","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8435397835163738291}
     - {fileID: 6439882100149275406}
     - {fileID: 6439882098778708391}
     - {fileID: 1317979782751412193}
+    - {fileID: 1132031270}
 --- !u!114 &1317979783514903525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,18 +327,18 @@ NavMeshAgent:
   m_GameObject: {fileID: 1317979783514903520}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 2
+  m_Radius: 2
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 1000
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
+  m_StoppingDistance: 1
+  m_AutoTraverseOffMeshLink: 0
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 1
-  m_WalkableMask: 4294967295
+  m_WalkableMask: 8
   m_ObstacleAvoidanceType: 4
 --- !u!54 &1317979782445933122
 Rigidbody:

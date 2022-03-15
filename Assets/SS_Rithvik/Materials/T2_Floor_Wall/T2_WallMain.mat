@@ -107,10 +107,10 @@ Material:
     - _AlphaToMaskInspectorValue: 0
     - _Anisotropy: 0
     - _BASE_COLOR_WEIGHT: 1
-    - _BUMP_MAP_STRENGTH: 0
+    - _BUMP_MAP_STRENGTH: 0.3
     - _BlendMode: 0
     - _BumpScale: 1
-    - _COAT_IOR: 0
+    - _COAT_IOR: 1.4
     - _COAT_ROUGHNESS: 0
     - _COAT_THICKNESS: 5
     - _COAT_WEIGHT: 0
@@ -131,7 +131,7 @@ Material:
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
-    - _EMISSION_WEIGHT: 0
+    - _EMISSION_WEIGHT: 1
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -173,8 +173,8 @@ Material:
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
     - _Parallax: 0.02
-    - _REFLECTIONS_IOR: 0
-    - _REFLECTIONS_ROUGHNESS: 0
+    - _REFLECTIONS_IOR: 1
+    - _REFLECTIONS_ROUGHNESS: 1
     - _REFLECTIONS_WEIGHT: 1
     - _RayTracing: 0
     - _ReceivesSSR: 1
@@ -234,7 +234,7 @@ Material:
     - _Color: {r: 0.9574316, g: 0.76185256, b: 0.5992285, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _EMISSION_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
