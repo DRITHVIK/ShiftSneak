@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925561351452647283}
-  m_LocalRotation: {x: 0.5176628, y: 0.000000020819629, z: -0.000000012596703, w: 0.85558474}
+  m_LocalRotation: {x: 0.51766115, y: 0, z: 0, w: 0.85558575}
   m_LocalPosition: {x: -33.55, y: 9.333, z: 2.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -32,7 +32,7 @@ Transform:
   - {fileID: 925561351953188042}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 62.351, y: 0, z: 0}
 --- !u!114 &925561351452647282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49,15 +49,15 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 11
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
-    NearClipPlane: 0.3
-    FarClipPlane: 1000
+    NearClipPlane: 0.01
+    FarClipPlane: 100000
     Dutch: 0
     LensShift: {x: 0, y: 0}
     Iso: 200
@@ -135,11 +135,11 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 12
+  orthographic size: 20
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 578432
+    m_Bits: 775040
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 9205e99de90c5d44ba65cb35e24b34f4, type: 2}
   m_TargetDisplay: 0
@@ -251,7 +251,7 @@ MonoBehaviour:
   invertFaceCulling: 0
   probeLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   hasPersistentHistory: 0
   exposureTarget: {fileID: 0}
   m_RenderingPathCustomFrameSettings:
@@ -285,6 +285,7 @@ GameObject:
   - component: {fileID: 925561352498440333}
   - component: {fileID: 925561352498440323}
   - component: {fileID: 925561352498440322}
+  - component: {fileID: 1338654831}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -367,3 +368,20 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
+--- !u!114 &1338654831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925561352498440321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 20a705aea2d80e0478fb89b6f43d8530, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0.25
+  m_FrequencyGain: 0.25
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
