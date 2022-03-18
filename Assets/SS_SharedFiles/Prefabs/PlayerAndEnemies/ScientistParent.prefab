@@ -653,41 +653,65 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Collider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint1","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint2","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint3","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PatrolPoint4","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackPoint","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Body","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Gun-Aiming","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Gun-Held","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Rotation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ViewCone","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"AmmoCount","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"PatrolEnabled","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Patrolpoints","value":{"$content":[10,11,12,13],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"InView","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"CanSee","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ViewconeUI","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"Collider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackPoint","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Body","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Gun-Aiming","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Gun-Held","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Rotation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ViewCone","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"AmmoCount","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"PatrolEnabled","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Patrolpoints","value":{"$content":[6,7,8,9],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"InView","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"CanSee","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ViewconeUI","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 15
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
-      objectReference: {fileID: 4266185489104813159}
+      objectReference: {fileID: 6192218643761153593}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
-      objectReference: {fileID: 4266185488491269787}
+      objectReference: {fileID: 6192218642415385316}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4980459498180259662}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
-      propertyPath: _data._objectReferences.Array.data[10]
+      propertyPath: _data._objectReferences.Array.data[4]
+      value: 
+      objectReference: {fileID: 4980459497817548031}
+    - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 4434673274542814596}
+    - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: _data._objectReferences.Array.data[6]
       value: 
       objectReference: {fileID: 4266185489104813159}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
-      propertyPath: _data._objectReferences.Array.data[11]
+      propertyPath: _data._objectReferences.Array.data[7]
       value: 
       objectReference: {fileID: 4266185488491269787}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
-      propertyPath: _data._objectReferences.Array.data[12]
+      propertyPath: _data._objectReferences.Array.data[8]
       value: 
       objectReference: {fileID: 4266185488263557937}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
-      propertyPath: _data._objectReferences.Array.data[13]
+      propertyPath: _data._objectReferences.Array.data[9]
       value: 
       objectReference: {fileID: 4266185487549652001}
+    - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: _data._objectReferences.Array.data[10]
+      value: 
+      objectReference: {fileID: 958958098}
+    - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: _data._objectReferences.Array.data[11]
+      value: 
+      objectReference: {fileID: 958958098}
+    - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: _data._objectReferences.Array.data[12]
+      value: 
+      objectReference: {fileID: 958958098}
+    - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: _data._objectReferences.Array.data[13]
+      value: 
+      objectReference: {fileID: 958958098}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.data[14]
       value: 
@@ -822,14 +846,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+--- !u!4 &6192218643421737794 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7988162073129637899, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+  m_PrefabInstance: {fileID: 4266185489600998217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4980459498180259662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9091268600372052999, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+  m_PrefabInstance: {fileID: 4266185489600998217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4980459497817548031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9091268600663461814, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+  m_PrefabInstance: {fileID: 4266185489600998217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6192218642415385316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7988162074137039277, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+  m_PrefabInstance: {fileID: 4266185489600998217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5965785632130363472 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7637598599376116505, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
   m_PrefabInstance: {fileID: 4266185489600998217}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &6192218643421737794 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7988162073129637899, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+--- !u!1 &4434673274542814596 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 486273042962259661, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+  m_PrefabInstance: {fileID: 4266185489600998217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6192218643761153593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7988162072799653232, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
   m_PrefabInstance: {fileID: 4266185489600998217}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8354978730480723988

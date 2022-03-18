@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 1456480736498047334}
   - component: {fileID: 1961301409493765900}
   - component: {fileID: 5006399072988568501}
-  m_Layer: 16
+  m_Layer: 9
   m_Name: Box002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -640,8 +640,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.18750934, y: 0.15355642, z: 0.048636887}
-  m_Center: {x: 0, y: 0.000023208562, z: 0.024318444}
+  m_Size: {x: 0.18750934, y: 0.15355642, z: 0.14680348}
+  m_Center: {x: 1.9677324e-12, y: 0.000023201514, z: 0.07340171}
 --- !u!1 &4578842893950592052
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,7 +686,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 257.47144
+  m_Intensity: 78.84813
   m_Range: 1.52
   m_SpotAngle: 175
   m_InnerSpotAngle: 1
@@ -756,7 +756,7 @@ MonoBehaviour:
   m_PointlightHDType: 1
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 202.2176
+  m_Intensity: 61.927177
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 76.2
