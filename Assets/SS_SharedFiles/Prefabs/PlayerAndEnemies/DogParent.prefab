@@ -1172,6 +1172,7 @@ GameObject:
   - component: {fileID: 1606688790632992809}
   - component: {fileID: 1606688790632992814}
   - component: {fileID: 1606688790632992815}
+  - component: {fileID: 387699797346105872}
   m_Layer: 0
   m_Name: ViewCone
   m_TagString: Untagged
@@ -1256,6 +1257,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &387699797346105872
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606688790632992812}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Center: {x: 0.53, y: 0, z: -0.55}
 --- !u!1 &1606688790835173531
 GameObject:
   m_ObjectHideFlags: 0
