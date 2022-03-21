@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 5815801183257527101}
   - component: {fileID: 2717703777241659917}
   - component: {fileID: 4285440831576305068}
-  - component: {fileID: 704067664713784086}
+  - component: {fileID: 6468777330763729991}
   m_Layer: 0
   m_Name: Locker.002
   m_TagString: Untagged
@@ -178,7 +178,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &704067664713784086
+--- !u!64 &6468777330763729991
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   - component: {fileID: 2117106487932201764}
   - component: {fileID: 2244291237866290266}
   - component: {fileID: 8330290591410685703}
-  - component: {fileID: 8664039066388061456}
+  - component: {fileID: 4195302485922615117}
   m_Layer: 0
   m_Name: Locker.003
   m_TagString: Untagged
@@ -370,7 +370,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8664039066388061456
+--- !u!64 &4195302485922615117
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
