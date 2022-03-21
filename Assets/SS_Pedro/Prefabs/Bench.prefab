@@ -11,13 +11,14 @@ GameObject:
   - component: {fileID: 8496400936452765167}
   - component: {fileID: 4775676217068042826}
   - component: {fileID: 7323534134755708544}
-  - component: {fileID: 6565400650385683359}
-  m_Layer: 0
+  - component: {fileID: 3478981250008783394}
+  - component: {fileID: 5736991879432264603}
+  m_Layer: 9
   m_Name: Bench
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8496400936452765167
 Transform:
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e19bf0177d2242541a8965bd116139ac, type: 2}
+  - {fileID: 2100000, guid: f046ca36cbdf5c94f81cbcd9a5b3fc1b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,7 +83,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6565400650385683359
+--- !u!208 &3478981250008783394
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125021882937012053}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.8830001, y: 0.24100001, z: 0.52400005}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.001, y: 0.75900006, z: -0.024}
+  m_TimeToStationary: 0.5
+--- !u!64 &5736991879432264603
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
