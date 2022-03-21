@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/SS_SharedFiles/Scenes/Verticle Slice Level.unity
     guid: be4886a46c9ba2246b23c62b16eb1b00
   - enabled: 1

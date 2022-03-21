@@ -194,7 +194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 825.19995, y: -235}
+  m_AnchoredPosition: {x: 862, y: -244}
   m_SizeDelta: {x: 461.80005, y: 189.80005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8666101421896812340
@@ -275,7 +275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 720.6001, y: -219}
+  m_AnchoredPosition: {x: 664, y: -219}
   m_SizeDelta: {x: 461.80005, y: 189.80005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8666101422234030757
@@ -619,7 +619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 732, y: -232}
+  m_AnchoredPosition: {x: 694, y: -246}
   m_SizeDelta: {x: 461.80005, y: 189.80005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8666101422792001629
@@ -663,7 +663,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'CARDBOARD CUTOUT
+  m_Text: 'Ladder
 
 '
 --- !u!1 &8666101423230697403
@@ -700,7 +700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 738, y: -219}
+  m_AnchoredPosition: {x: 724, y: -219}
   m_SizeDelta: {x: 461.80005, y: 189.80005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8666101423230697404

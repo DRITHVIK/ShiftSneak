@@ -1064,7 +1064,7 @@ GameObject:
   - component: {fileID: 1920819767}
   m_Layer: 12
   m_Name: Guard_Collider
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1387,7 +1387,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606688790835173531}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 100
   m_Drag: 50
   m_AngularDrag: 50
   m_UseGravity: 1
