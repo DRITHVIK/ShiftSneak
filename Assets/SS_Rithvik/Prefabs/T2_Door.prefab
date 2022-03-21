@@ -44,6 +44,8 @@ GameObject:
   - component: {fileID: 6252801784299032924}
   - component: {fileID: 7142600548915405312}
   - component: {fileID: 8080923832018173039}
+  - component: {fileID: 9000164234985596232}
+  - component: {fileID: 7909386947782878680}
   m_Layer: 0
   m_Name: T2_Door_Left
   m_TagString: Untagged
@@ -114,6 +116,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9000164234985596232
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2494293558988698337}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2242993205987463996, guid: 0ffdef4d8ff6e4241b89aa3a608ecb13, type: 3}
+--- !u!208 &7909386947782878680
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2494293558988698337}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 5.709, y: 114.36301, z: 58.173004}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -2.536, y: -22.809002, z: 59.198}
+  m_TimeToStationary: 0.5
 --- !u!1 &5366494031233077039
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +157,8 @@ GameObject:
   - component: {fileID: 7464192398718833514}
   - component: {fileID: 4813862848245915655}
   - component: {fileID: 7286005879930307231}
+  - component: {fileID: 3538466705325018230}
+  - component: {fileID: 9191199899936248528}
   m_Layer: 0
   m_Name: T2_Door_Right
   m_TagString: Untagged
@@ -195,6 +229,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3538466705325018230
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5366494031233077039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8979180892781350840, guid: 0ffdef4d8ff6e4241b89aa3a608ecb13, type: 3}
+--- !u!208 &9191199899936248528
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5366494031233077039}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 17.897001, y: 114.439, z: 73.787}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -1.082, y: -22.733002, z: -51.352}
+  m_TimeToStationary: 0.5
 --- !u!1 &5860736322276676145
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +270,8 @@ GameObject:
   - component: {fileID: 8529248716298776699}
   - component: {fileID: 6250315642708716742}
   - component: {fileID: 1452151883057957874}
+  - component: {fileID: 5726591263409997708}
+  - component: {fileID: 6911860970220870929}
   m_Layer: 0
   m_Name: T2_DoorFrame
   m_TagString: Untagged
@@ -279,3 +345,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5726591263409997708
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5860736322276676145}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26575404, y: 2.5000002, z: 1.1871581}
+  m_Center: {x: -0.8672917, y: 6.16085e-24, z: 6.4886857e-15}
+--- !u!65 &6911860970220870929
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5860736322276676145}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26525664, y: 2.5000002, z: 1.1871581}
+  m_Center: {x: 0.86754036, y: -6.279743e-24, z: 5.3248963e-15}
