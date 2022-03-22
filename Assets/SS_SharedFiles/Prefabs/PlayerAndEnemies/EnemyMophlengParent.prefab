@@ -501,7 +501,7 @@ GameObject:
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6439882098778708390
 Transform:
   m_ObjectHideFlags: 0
@@ -596,7 +596,7 @@ GameObject:
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6439882100149275393
 Transform:
   m_ObjectHideFlags: 0
@@ -685,7 +685,6 @@ GameObject:
   - component: {fileID: 3366672211163388280}
   - component: {fileID: 7553480584200041853}
   - component: {fileID: 538729862031181975}
-  - component: {fileID: 7373507580051955691}
   m_Layer: 12
   m_Name: ViewCone
   m_TagString: Untagged
@@ -770,19 +769,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!135 &7373507580051955691
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8435397835163738291}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.1
-  m_Center: {x: 0.5, y: 0, z: -0.49}
 --- !u!1001 &6770918691400670932
 PrefabInstance:
   m_ObjectHideFlags: 0
