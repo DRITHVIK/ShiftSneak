@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 958958099}
   - component: {fileID: 958958100}
   m_Layer: 15
-  m_Name: Viewcone (1)
+  m_Name: ViewconeSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,12 +24,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958958098}
-  m_LocalRotation: {x: -0.6409874, y: 0.26398605, z: -0.25037208, w: -0.67584056}
-  m_LocalPosition: {x: -0.3888, y: 0.234, z: 0.4085}
-  m_LocalScale: {x: 0.009582398, y: 0.0049075605, z: 0.03931101}
+  m_LocalRotation: {x: -0.013981585, y: 0.7254183, z: -0.68800837, w: -0.01474163}
+  m_LocalPosition: {x: -0.40177625, y: 1.0827372, z: 5.265429}
+  m_LocalScale: {x: 0.3393701, y: 0.17384173, z: 0.054623377}
   m_Children: []
-  m_Father: {fileID: 5965785632130363472}
-  m_RootOrder: 0
+  m_Father: {fileID: 6192218643421737794}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 86.968, y: 317.328, z: 0}
 --- !u!212 &958958100
 SpriteRenderer:
@@ -660,6 +660,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4266185487743775063}
     m_Modifications:
+    - target: {fileID: 486273042962259661, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4849808536708885768, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -702,12 +706,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Collider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackPoint","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Body","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Gun-Aiming","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Gun-Held","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Rotation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ViewCone","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"AmmoCount","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"PatrolEnabled","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Patrolpoints","value":{"$content":[6,7,8,9],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"InView","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"CanSee","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ViewconeUI","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"Collider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackPoint","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Body","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Gun-Aiming","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Gun-Held","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Rotation","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ViewCone","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"AmmoCount","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"PatrolEnabled","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Patrolpoints","value":{"$content":[6,7,8,9,10],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"InView","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"CanSee","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ViewconeUI","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
@@ -740,15 +744,15 @@ PrefabInstance:
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.data[8]
       value: 
-      objectReference: {fileID: 4266185488263557937}
+      objectReference: {fileID: 4266185488761008715}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.data[9]
       value: 
-      objectReference: {fileID: 4266185487549652001}
+      objectReference: {fileID: 4266185488263557937}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.data[10]
       value: 
-      objectReference: {fileID: 958958098}
+      objectReference: {fileID: 4266185487549652001}
     - target: {fileID: 7988162073129637898, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: _data._objectReferences.Array.data[11]
       value: 
@@ -829,6 +833,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 7988162073457210954, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7988162073457210957, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -869,6 +877,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 7988162074137039277, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7988162074137039278, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.75
@@ -897,6 +909,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 9091268600663461814, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9091268598996268340, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
@@ -905,14 +921,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7988162073129637943, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
   m_PrefabInstance: {fileID: 4266185489600998217}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &6192218643421737794 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7988162073129637899, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
-  m_PrefabInstance: {fileID: 4266185489600998217}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &5965785632130363472 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7637598599376116505, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+--- !u!1 &4980459498180259662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9091268600372052999, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
   m_PrefabInstance: {fileID: 4266185489600998217}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4434673274542814596 stripped
@@ -925,11 +936,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7988162072799653232, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
   m_PrefabInstance: {fileID: 4266185489600998217}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4980459498180259662 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9091268600372052999, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
-  m_PrefabInstance: {fileID: 4266185489600998217}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6192218642415385316 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7988162074137039277, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
@@ -938,6 +944,11 @@ GameObject:
 --- !u!1 &4980459497817548031 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9091268600663461814, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+  m_PrefabInstance: {fileID: 4266185489600998217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6192218643421737794 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7988162073129637899, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
   m_PrefabInstance: {fileID: 4266185489600998217}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8354978730480723988
