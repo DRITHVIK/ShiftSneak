@@ -316,13 +316,13 @@ GameObject:
   m_Component:
   - component: {fileID: 6233499039381352808}
   - component: {fileID: 6233499039381352811}
-  - component: {fileID: 6233499039381352810}
+  - component: {fileID: 3889453306030003607}
   - component: {fileID: 6233499039381352813}
   - component: {fileID: 6233499039381352809}
   - component: {fileID: 6233499039381352806}
   m_Layer: 12
   m_Name: Caretaker AI
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -374,7 +374,7 @@ MonoBehaviour:
     - {fileID: 6233499039930732510}
     - {fileID: 0}
     - {fileID: 1011763057}
---- !u!114 &6233499039381352810
+--- !u!114 &3889453306030003607
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -383,13 +383,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6233499039381352812}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: a044e55a45719c444b7c18ee2f1992f3, type: 2}
+    - {fileID: 11400000, guid: c680fb10cf61f234c9c83fa0b1e22373, type: 2}
 --- !u!195 &6233499039381352813
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -410,7 +410,7 @@ NavMeshAgent:
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 1
-  m_WalkableMask: 4294967295
+  m_WalkableMask: 7
   m_ObstacleAvoidanceType: 4
 --- !u!54 &6233499039381352809
 Rigidbody:
