@@ -57,7 +57,7 @@ MonoBehaviour:
     FieldOfView: 60
     OrthographicSize: 5
     NearClipPlane: 0.01
-    FarClipPlane: 100000
+    FarClipPlane: 120
     Dutch: 0
     LensShift: {x: 0, y: 0}
     Iso: 200
@@ -139,7 +139,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 775040
+    m_Bits: 775041
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 9205e99de90c5d44ba65cb35e24b34f4, type: 2}
   m_TargetDisplay: 0
