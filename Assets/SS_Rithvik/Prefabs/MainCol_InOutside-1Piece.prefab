@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8465878821157889601}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MainCol_InOutside-1Piece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8465878821157889601
 Transform:
@@ -99,6 +99,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainColOutside (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9384e80a54fb69c458c2e78cffea8bc6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9384e80a54fb69c458c2e78cffea8bc6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9384e80a54fb69c458c2e78cffea8bc6, type: 3}
 --- !u!4 &8283930138538314648 stripped
@@ -120,6 +128,14 @@ PrefabInstance:
     - target: {fileID: 8375303757041539372, guid: dc61100f350671c44a56d286f93a6162, type: 3}
       propertyPath: m_Name
       value: T2_MainColInside (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375303757041539372, guid: dc61100f350671c44a56d286f93a6162, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375303757041539372, guid: dc61100f350671c44a56d286f93a6162, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 9183084591165260694, guid: dc61100f350671c44a56d286f93a6162, type: 3}
       propertyPath: m_RootOrder

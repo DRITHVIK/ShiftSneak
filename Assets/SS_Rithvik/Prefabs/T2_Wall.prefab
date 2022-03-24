@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 3089319550270056596}
   - component: {fileID: 4382910928450302124}
   - component: {fileID: 6009627210227134631}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: T2_WallPillars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &3089319550270056596
 Transform:
@@ -92,12 +92,12 @@ GameObject:
   - component: {fileID: 7566915951415292409}
   - component: {fileID: 6192790752304994136}
   - component: {fileID: 1440279390773395347}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: T2_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &7566915951415292409
 Transform:
@@ -173,12 +173,12 @@ GameObject:
   - component: {fileID: 8862662255900594050}
   - component: {fileID: 8846286290184611605}
   - component: {fileID: 2259821539843443342}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &8862662255900594050
 Transform:
@@ -252,12 +252,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6246122559221633157}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: T2_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &6246122559221633157
 Transform:
