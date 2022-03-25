@@ -866,6 +866,10 @@ PrefabInstance:
       value: 1.9511236
       objectReference: {fileID: 0}
     - target: {fileID: 7988162073466998229, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
+      propertyPath: m_Radius
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7988162073466998229, guid: dfbe5066746665a4f85ede2dfd54ba0e, type: 3}
       propertyPath: m_Center.y
       value: 0.36657238
       objectReference: {fileID: 0}
