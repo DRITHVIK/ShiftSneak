@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1011763058}
   - component: {fileID: 1011763059}
-  m_Layer: 20
+  m_Layer: 15
   m_Name: ViewconeSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
