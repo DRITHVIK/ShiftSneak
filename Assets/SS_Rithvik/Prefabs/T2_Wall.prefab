@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 6192790752304994136}
   - component: {fileID: 1440279390773395347}
   - component: {fileID: 5738901342744235297}
+  - component: {fileID: 177252921969762301}
   m_Layer: 9
   m_Name: T2_Wall
   m_TagString: Untagged
@@ -176,6 +177,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000002, y: 2.5626013, z: 0.59357876}
   m_Center: {x: -0.99999994, y: 1.280681, z: -0.29678938}
+--- !u!208 &177252921969762301
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243668786324322666}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1, y: 1.281, z: 0.29700002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -1, y: 1.281, z: -0.29700002}
+  m_TimeToStationary: 0.5
 --- !u!1 &4752154160450241861
 GameObject:
   m_ObjectHideFlags: 0
