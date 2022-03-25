@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1838869638981914994}
   - component: {fileID: 3326789741856923351}
   - component: {fileID: 707019980182088221}
+  - component: {fileID: 1197532344096979393}
   m_Layer: 0
   m_Name: FireExtinguisher001
   m_TagString: Untagged
@@ -82,6 +83,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &1197532344096979393
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355348867623996360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 1.2
+  m_Direction: 2
+  m_Center: {x: 0, y: -0.00011293593, z: 0.59}
 --- !u!1001 &6789294086165065613
 PrefabInstance:
   m_ObjectHideFlags: 0
