@@ -993,6 +993,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 8638777886503673684}
+    - target: {fileID: 3703636840121017521, guid: 720c3f243f6d0ab47806dd8d3d0dde28, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3703636840121017522, guid: 720c3f243f6d0ab47806dd8d3d0dde28, type: 3}
       propertyPath: m_IsActive
       value: 1

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 787285618}
   m_Layer: 8
   m_Name: Point Light
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,6 +359,7 @@ GameObject:
   - component: {fileID: 1755379064}
   - component: {fileID: 1755379063}
   - component: {fileID: 1755379062}
+  - component: {fileID: 5014112919899810907}
   m_Layer: 8
   m_Name: PlayerHeavyBox
   m_TagString: Player
@@ -442,6 +443,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.3
   m_Center: {x: 0, y: 0.25, z: 0}
+--- !u!65 &5014112919899810907
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755379060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 1.0000001}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2001177934
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,9 +740,9 @@ GameObject:
   - component: {fileID: 283939463309887166}
   - component: {fileID: 283939463309887165}
   - component: {fileID: 283939463309887164}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder (2)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -820,7 +834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 283939463400485675}
   - component: {fileID: 1177772345}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerLadder
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -835,7 +849,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283939463400485674}
   m_LocalRotation: {x: -0.10167715, y: -0.000000059604638, z: 0.000007770955, w: 0.99481744}
-  m_LocalPosition: {x: 0.000010728836, y: 1.4283739, z: 0.26526642}
+  m_LocalPosition: {x: 0.000010728836, y: 1.3283739, z: 0.26526642}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 283939464926567261}
@@ -859,9 +873,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 3
+  m_Height: 4.2323933
   m_Direction: 1
-  m_Center: {x: -0.08, y: 0, z: -0.17}
+  m_Center: {x: -0.079999976, y: 0.6161963, z: -0.17000036}
 --- !u!1 &283939463495657002
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,7 +905,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283939463495657002}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.407, z: 0}
+  m_LocalPosition: {x: 0, y: 0.7070001, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 283939465212176820}
@@ -1008,9 +1022,9 @@ GameObject:
   - component: {fileID: 283939463553347432}
   - component: {fileID: 283939463553347415}
   - component: {fileID: 283939463553347414}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1103,9 +1117,9 @@ GameObject:
   - component: {fileID: 283939463573829076}
   - component: {fileID: 283939463573829075}
   - component: {fileID: 283939463573829074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1486,7 +1500,7 @@ GameObject:
   - component: {fileID: 283939464169565773}
   m_Layer: 6
   m_Name: RaycastCatcher
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1576,9 +1590,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 283939464405997542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Segway
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1709,9 +1723,9 @@ GameObject:
   - component: {fileID: 283939464658659129}
   - component: {fileID: 283939464658659128}
   - component: {fileID: 283939464658659111}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1961,9 +1975,9 @@ GameObject:
   - component: {fileID: 283939464811493828}
   - component: {fileID: 283939464811493827}
   - component: {fileID: 283939464811493826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2443,7 +2457,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 112
+  m_Constraints: 116
   m_CollisionDetection: 1
 --- !u!114 &283939465198749644
 MonoBehaviour:
@@ -3185,6 +3199,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lamp
       objectReference: {fileID: 0}
+    - target: {fileID: 7026918211331770121, guid: 2aaeda79388939b4e8584cbac4ab5bf8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026918211331770121, guid: 2aaeda79388939b4e8584cbac4ab5bf8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7696493771035712947, guid: 2aaeda79388939b4e8584cbac4ab5bf8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3318,6 +3340,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7279d2d789589ca44b4828b3a32bc1fb, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7279d2d789589ca44b4828b3a32bc1fb, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392349264487019820, guid: 7279d2d789589ca44b4828b3a32bc1fb, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2799829967331481371, guid: 7279d2d789589ca44b4828b3a32bc1fb, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4961477022307676059, guid: 7279d2d789589ca44b4828b3a32bc1fb, type: 3}
       propertyPath: m_Materials.Array.data[0]
