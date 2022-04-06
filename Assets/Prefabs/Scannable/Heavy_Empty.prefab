@@ -824,7 +824,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1726553453255435073}
   - component: {fileID: 849242289}
-  - component: {fileID: 849242288}
   m_Layer: 2
   m_Name: Heavy_Empty
   m_TagString: Untagged
@@ -866,19 +865,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!65 &849242288
-BoxCollider:
+--- !u!64 &7627980934297137327
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726553453255435072}
+  m_GameObject: {fileID: 2586847700161015388}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5060444177187149915, guid: 2480b6a17332397429cca58154290bd3, type: 3}
 --- !u!1001 &3397752162425443085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -952,6 +952,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2480b6a17332397429cca58154290bd3, type: 3}
+--- !u!1 &2586847700161015388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2480b6a17332397429cca58154290bd3, type: 3}
+  m_PrefabInstance: {fileID: 3397752162425443085}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2931145079665095910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2480b6a17332397429cca58154290bd3, type: 3}

@@ -1308,6 +1308,7 @@ Transform:
   - {fileID: 1133870160826829030}
   - {fileID: 1767646090103652054}
   - {fileID: 8852270965474277996}
+  - {fileID: 6193532649563141972}
   m_Father: {fileID: 8223397813182816871}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 46.569, z: 0}
@@ -1325,7 +1326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"IsPatrolling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"FeedPoint","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ViewCone","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"checkingCamera","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"inMeleeRange","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PatrolPoints","value":{"$content":[2,3,4,5,6],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Bark","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Curious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Caretaker","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"?Text","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Barktext","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"feedindicator","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StartLoc","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"CaretakerPatrols","value":{"$content":[{"$content":11,"$type":"UnityEngine.Object"},{"$content":12,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Eating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Scanablecanvas","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Fed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"CanSee","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ViewconeUI","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Bark","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Curious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Caretaker","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"?Text","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Barktext","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"feedindicator","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StartLoc","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"CaretakerPatrols","value":{"$content":[{"$content":11,"$type":"UnityEngine.Object"},{"$content":12,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Eating","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Scanablecanvas","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Fed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"CanSee","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ViewconeUI","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Mesh","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1606688789669627854}
     - {fileID: 1606688790632992812}
@@ -1342,6 +1343,7 @@ MonoBehaviour:
     - {fileID: 4243850338673661708}
     - {fileID: 0}
     - {fileID: 646274133}
+    - {fileID: 6825215740020190702}
 --- !u!114 &1606688790835173511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1367,11 +1369,11 @@ NavMeshAgent:
   m_GameObject: {fileID: 1606688790835173531}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 0.8
   m_Speed: 2
-  m_Acceleration: 8
+  m_Acceleration: 100
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 1200
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -1755,6 +1757,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &5449732165357836665
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6825215740020190702}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37edb6e7a6dd10848a54eff73838ec92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7479993446197481482
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,6 +2115,77 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5942887132472529087
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1606688790835173505}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.011380509
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.22971782
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8532215113924707576, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b9b88cc8b280d844e84937c2d0b77798, type: 2}
+    - target: {fileID: 919132149155446097, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+      propertyPath: m_Name
+      value: DogMesh
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+--- !u!4 &6193532649563141972 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+  m_PrefabInstance: {fileID: 5942887132472529087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6825215740020190702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 107a7ea791e4cb840a3373202d5aa248, type: 3}
+  m_PrefabInstance: {fileID: 5942887132472529087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9030611120635010439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2152,6 +2244,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c321f759a1242a246aa8e88d3e2075cf, type: 3}
       propertyPath: m_Name
       value: GuardDog_LP
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c321f759a1242a246aa8e88d3e2075cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c321f759a1242a246aa8e88d3e2075cf, type: 3}

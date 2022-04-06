@@ -8,19 +8,19 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SS_SharedFiles/Scenes/Verticle Slice Level.unity
     guid: be4886a46c9ba2246b23c62b16eb1b00
-  - enabled: 1
+  - enabled: 0
     path: Assets/SS_Rithvik/Scenes/Rithvik_Cafe.unity
     guid: 2f2eec923e5dcd9418fd1ae43f1e9775
   - enabled: 1
     path: Assets/SS_Tyler/Scenes/Tyler Scene.unity
     guid: 63a59a2a30bf26b44b98eb367eb4a922
-  - enabled: 1
+  - enabled: 0
     path: Assets/SS_Pedro/Scenes/Pedro Dorm Level.unity
     guid: baf5ccfb31150174db05eed8928007db
-  - enabled: 1
+  - enabled: 0
     path: Assets/SS_Anna/Scenes/Anna Vet Level.unity
     guid: b72876b32723c5c428b05b95f61d087f
-  - enabled: 1
+  - enabled: 0
     path: Assets/SS_Jack/Scenes/Research Level.unity
     guid: 00051cfe3ad9f7341820f51ecfe2045a
   m_configObjects: {}
