@@ -455,8 +455,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9259658, y: 0.587575, z: 1.0000001}
-  m_Center: {x: 0.03701663, y: -0.07440791, z: -7.523962e-14}
+  m_Size: {x: 0.9259658, y: 0.8250391, z: 1.0000001}
+  m_Center: {x: 0.03701663, y: 0.04432403, z: -7.523962e-14}
 --- !u!1 &2001177934
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,6 +1821,8 @@ GameObject:
   - component: {fileID: 283939464737543161}
   - component: {fileID: 283939464737543163}
   - component: {fileID: 283939464737543164}
+  - component: {fileID: 1964181337}
+  - component: {fileID: 1964181338}
   m_Layer: 8
   m_Name: PlayerBox
   m_TagString: Player
@@ -1920,6 +1922,40 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1964181337
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283939464737543142}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 458666567cd483840a687129ca285648, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1964181338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283939464737543142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"canmove","summary":null,"pan":{"x":548.9587,"y":63.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-289.0,"y":-99.0},"guid":"4adcbdde-624e-47a4-a411-651e6885b508","$version":"A","$type":"Bolt.Update","$id":"10"},{"chainable":false,"member":{"name":"GetAxisRaw","parameterTypes":["System.String"],"targetType":"UnityEngine.Input","targetTypeName":"UnityEngine.Input","$version":"A"},"defaultValues":{"%axisName":{"$content":"Horizontal","$type":"System.String"}},"position":{"x":-55.0,"y":-49.0},"guid":"c2a2312c-aba8-4b0e-9f08-25ca141dc611","$version":"A","$type":"Bolt.InvokeMember","$id":"12"},{"chainable":false,"member":{"name":"GetAxisRaw","parameterTypes":["System.String"],"targetType":"UnityEngine.Input","targetTypeName":"UnityEngine.Input","$version":"A"},"defaultValues":{"%axisName":{"$content":"Vertical","$type":"System.String"}},"position":{"x":196.0,"y":-81.0},"guid":"1f9f900f-9699-41d9-bbae-f9b01e6b7089","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"chainable":false,"member":{"name":"SetFloat","parameterTypes":["System.String","System.Single"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"hor","$type":"System.String"},"%value":{"$content":0.0,"$type":"System.Single"}},"position":{"x":482.0,"y":-78.0},"guid":"d7ee99eb-585e-4542-a42d-c5b17e7e9d2f","$version":"A","$type":"Bolt.InvokeMember","$id":"18"},{"chainable":false,"member":{"name":"SetFloat","parameterTypes":["System.String","System.Single"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"vert","$type":"System.String"},"%value":{"$content":0.0,"$type":"System.Single"}},"position":{"x":689.0,"y":-77.0},"guid":"ad7b193b-cb95-4a5d-8d87-76b2f60fdc6b","$version":"A","$type":"Bolt.InvokeMember","$id":"21"},{"sourceUnit":{"$ref":"12"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"48d3e4a8-9545-4fd1-ab7b-1cb448507155","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"d4831392-b688-4b3c-9ecf-1686cd992306","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"exit","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"389ed3f6-44f6-431b-b1fd-d2157a5a4f7e","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"exit","destinationUnit":{"$ref":"21"},"destinationKey":"enter","guid":"333169af-9b01-4395-b70b-8236bfc12106","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"result","destinationUnit":{"$ref":"18"},"destinationKey":"%value","guid":"de3cca0e-8b67-4608-b40f-f253648fc92d","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"result","destinationUnit":{"$ref":"21"},"destinationKey":"%value","guid":"c7732c6d-e99b-4753-8096-fd9fb6f830ee","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences: []
 --- !u!1 &283939464759976970
 GameObject:
   m_ObjectHideFlags: 0
@@ -1945,7 +1981,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283939464759976970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.52, z: 0}
+  m_LocalPosition: {x: 0, y: 0.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 283939464405997542}
@@ -2460,7 +2496,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 116
+  m_Constraints: 112
   m_CollisionDetection: 1
 --- !u!114 &283939465198749644
 MonoBehaviour:
@@ -2544,7 +2580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &283939465212176820
 Transform:
   m_ObjectHideFlags: 0
@@ -3531,7 +3567,7 @@ PrefabInstance:
     - target: {fileID: 4431670454091400558, guid: b184427a1823f8548b65f4238fe2b076, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c4c0dcff9ed071247b53791700715c02, type: 2}
+      objectReference: {fileID: 2100000, guid: 71f34b4722cb9364e90d407945f99462, type: 2}
     - target: {fileID: 8487167654232718067, guid: b184427a1823f8548b65f4238fe2b076, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
