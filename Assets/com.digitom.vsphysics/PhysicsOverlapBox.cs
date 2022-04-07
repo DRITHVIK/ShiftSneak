@@ -10,8 +10,8 @@ namespace Digitom.VSPhysics.RunTime
         [DoNotSerialize] public ValueInput size;
 
         private Vector3 _size;
-
-        protected override Collider[] DetectColliders(Flow flow) => Physics.OverlapBox(_pos, _size / 2, _rot, _mask);
+        private Collider[] betterCols = new Collider[5];
+        protected override Collider[] DetectColliders(Flow flow) { Physics.OverlapBoxNonAlloc(_pos, _size / 2, betterCols, _rot, _mask); return betterCols; }
         protected override void DrawGizmos(Flow flow) => Gizmos.DrawWireCube(Vector3.zero, _size);
 
         protected override void DefineInputs()
