@@ -1,0 +1,20 @@
+{
+    "name": "Digitom.Utilities.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2ad3604a3e2e24e4584fb53178f88108"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

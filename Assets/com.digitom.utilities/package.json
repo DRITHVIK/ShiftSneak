@@ -1,0 +1,8 @@
+{
+  "name": "com.digitom.digitomutilities",
+  "displayName": "Digitom Utilities",
+  "version": "0.0.1",
+  "unity": "2019.1",
+  "description": "Useful extensions to make game devs lives easier.",
+  "type": "library"
+}
