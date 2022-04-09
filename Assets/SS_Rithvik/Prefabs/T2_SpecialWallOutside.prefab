@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 2562930681558195354}
   - component: {fileID: 1458744571398116159}
   - component: {fileID: 3736429942958073845}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: T2_SpecialWallOutside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2562930681558195354
 Transform:
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2943818467667183136}
-  m_LocalRotation: {x: 0.5000003, y: 0.4999998, z: 0.4999998, w: -0.50000024}
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: -1.0398502, y: -0.03971505, z: 82.41259}
   m_LocalScale: {x: 1, y: -1, z: 1}
   m_Children: []
@@ -59,15 +59,8 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7748868401160649832, guid: f09a896746f68a7439033cfbf6b8d00f, type: 3}
-  - {fileID: -6548240814575871497, guid: f09a896746f68a7439033cfbf6b8d00f, type: 3}
-  - {fileID: 8785747026633060525, guid: f09a896746f68a7439033cfbf6b8d00f, type: 3}
-  - {fileID: -8268392831105236010, guid: f09a896746f68a7439033cfbf6b8d00f, type: 3}
-  - {fileID: 5197604809204010552, guid: f09a896746f68a7439033cfbf6b8d00f, type: 3}
-  - {fileID: 5051064004643506294, guid: f09a896746f68a7439033cfbf6b8d00f, type: 3}
-  - {fileID: -1775496234338599693, guid: f09a896746f68a7439033cfbf6b8d00f, type: 3}
-  - {fileID: 168612416750297514, guid: f09a896746f68a7439033cfbf6b8d00f, type: 3}
-  - {fileID: -867459745346957743, guid: f09a896746f68a7439033cfbf6b8d00f, type: 3}
+  - {fileID: 2100000, guid: 8a4ba609322283049993760618c834de, type: 2}
+  - {fileID: 2100000, guid: 21fba6124fa9c0a49a54d264f3c3a4b2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
