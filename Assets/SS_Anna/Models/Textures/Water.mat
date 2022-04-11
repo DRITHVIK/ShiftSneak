@@ -43,8 +43,8 @@ Material:
     m_Floats:
     - Vector1_38cd808293e44b18aa1bbc47e7c15dd6: 53.1
     - Vector1_7b78f72ab6254346b92cc05e33bfb176: 0.005
-    - Vector1_82671e6e37a44ab59f93207c95740516: 0.5
-    - Vector1_8ceb02b507ed48ef97ea9de0de894db3: 0
+    - Vector1_82671e6e37a44ab59f93207c95740516: 1
+    - Vector1_8ceb02b507ed48ef97ea9de0de894db3: 10
     - Vector1_b27cba3b7b2e4a0d8dff4870eb1240fa: 0.1
     - Vector1_cb9814460f5d4e0daf0f74c460caae6e: -1
     - _AddPrecomputedVelocity: 1
