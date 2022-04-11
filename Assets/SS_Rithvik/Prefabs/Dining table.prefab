@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 628182983194761176}
   - component: {fileID: 4546413016879192189}
   - component: {fileID: 1800575380925131959}
+  - component: {fileID: 7683385542831671235}
+  - component: {fileID: 6827663836479090731}
   m_Layer: 0
   m_Name: Dining table
   m_TagString: Untagged
@@ -82,6 +84,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7683385542831671235
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287123944626228578}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 1.337, y: 1.337, z: 1.337}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: -0.363}
+  m_TimeToStationary: 0.5
+--- !u!136 &6827663836479090731
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287123944626228578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.3368733
+  m_Height: 2.6737468
+  m_Direction: 2
+  m_Center: {x: 7.3873767e-16, y: -2.7158968e-16, z: -0.05}
 --- !u!1 &1456486394469224948
 GameObject:
   m_ObjectHideFlags: 0
