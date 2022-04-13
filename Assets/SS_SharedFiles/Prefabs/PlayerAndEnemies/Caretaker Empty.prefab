@@ -101,6 +101,37 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &487226267171020395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868800734238224718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":110.8231,"y":-80.0326},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{"name":{"$content":"Move","$type":"System.String"}},"position":{"x":-276.0,"y":-238.0},"guid":"73ea955b-bc75-4da1-8537-9296871d8be3","$version":"A","$type":"Bolt.BoltNamedAnimationEvent","$id":"10"},{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":null},"position":{"x":137.0,"y":-239.0},"guid":"fbe0c00c-d53d-4671-aa81-6f2797704a29","$version":"A","$type":"Bolt.InvokeMember","$id":"12"},{"coroutine":false,"defaultValues":{"name":{"$content":"Whistle","$type":"System.String"}},"position":{"x":-267.0,"y":83.0},"guid":"94f32916-a930-4ca7-ab14-6b51cd7889f4","$version":"A","$type":"Bolt.BoltNamedAnimationEvent","$id":"15"},{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":110.0,"y":79.0},"guid":"9002d96b-7bfa-472a-aa21-5616bc579fae","$version":"A","$type":"Bolt.InvokeMember","$id":"17"},{"coroutine":false,"defaultValues":{"name":{"$content":"Attack","$type":"System.String"}},"position":{"x":-277.0,"y":-81.0},"guid":"0cb25ab3-0352-4711-ac07-4a619413ac8a","$version":"A","$type":"Bolt.BoltNamedAnimationEvent","$id":"20"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Attack","$type":"System.String"},"target":null},"position":{"x":148.0,"y":-98.0},"guid":"bf60b382-d28e-4349-89e1-ca8b5bf4435d","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"22"},{"member":{"name":"parent","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-42.0,"y":-9.0},"guid":"697c863e-5284-4234-8412-3e1e93f26a73","$version":"A","$type":"Bolt.GetMember","$id":"24"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"d371fee5-e519-48ce-8617-c67628da7fe1","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"8c82f5bb-c221-43b0-b65e-2dad613ba062","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"trigger","destinationUnit":{"$ref":"22"},"destinationKey":"enter","guid":"8ad7d44d-b77d-4e15-b220-13771a602a17","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"value","destinationUnit":{"$ref":"22"},"destinationKey":"target","guid":"f9284c5b-be8b-4407-82bf-fd28f606a91b","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: e703550776df10649ae6648280bc3f28, type: 3}
+--- !u!114 &830281735064971645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868800734238224718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &3510954668447055665
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,7 +157,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3510954668447055665}
   m_LocalRotation: {x: 0.7070405, y: -0.009684681, z: 0.009684651, w: 0.70704055}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.099776626, y: 0.0039903955, z: -0.005753413}
   m_LocalScale: {x: 0.22779623, y: 0.22779623, z: 0.22779621}
   m_Children: []
   m_Father: {fileID: 6233499039381352808}
@@ -420,6 +451,7 @@ GameObject:
   - component: {fileID: 3889453306030003607}
   - component: {fileID: 6233499039381352813}
   - component: {fileID: 6233499039381352809}
+  - component: {fileID: 8000779500645656959}
   m_Layer: 12
   m_Name: Caretaker AI
   m_TagString: Enemy
@@ -531,6 +563,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!95 &8000779500645656959
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6233499039381352812}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 657ce471bd689be4f87b3ae6c7a429e1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6233499039751434716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,14 +1347,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 29f249262d9c4d1458af1ce3b631df73, type: 3}
   m_PrefabInstance: {fileID: 58529734687132703}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &4518032599661289676 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4720697313668813613, guid: 29f249262d9c4d1458af1ce3b631df73, type: 3}
-  m_PrefabInstance: {fileID: 58529734687132703}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &868800734238224718 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 29f249262d9c4d1458af1ce3b631df73, type: 3}
+  m_PrefabInstance: {fileID: 58529734687132703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4518032599661289676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4720697313668813613, guid: 29f249262d9c4d1458af1ce3b631df73, type: 3}
   m_PrefabInstance: {fileID: 58529734687132703}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4330274491244045873
