@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 7193970921781173935}
   - component: {fileID: 4914246577915259493}
   - component: {fileID: 4617591468363773743}
+  - component: {fileID: 51357159873181084}
   m_Layer: 9
   m_Name: Box2
   m_TagString: Untagged
@@ -110,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 6859568589909707696}
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
   m_LocalPosition: {x: 2.0320077, y: 0.0076383594, z: 18.507893}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0.7029}
   m_Children:
   - {fileID: 363983118316040063}
   m_Father: {fileID: 0}
@@ -179,3 +180,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8650256765218091854, guid: 0c6c1c0eea93750448e5487a6216e723, type: 3}
+--- !u!208 &51357159873181084
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6859568589909707696}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.4, y: 0.402, z: 0.68600005}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.010000001, y: 0.395, z: -0.051000003}
+  m_TimeToStationary: 0.5
