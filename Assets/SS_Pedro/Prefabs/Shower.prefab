@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1293357346865838635}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Shower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1293357346865838635
 Transform:
@@ -44,12 +44,12 @@ GameObject:
   - component: {fileID: 4004641118385249912}
   - component: {fileID: 7014964861868039879}
   - component: {fileID: 1116738658702770933}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5052212211593249139
 Transform:
@@ -72,7 +72,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6129299867988838324}
-  m_Mesh: {fileID: -7983645675987656659, guid: 3857e3746e23a57468455f912a96882c, type: 3}
+  m_Mesh: {fileID: -7983645675987656659, guid: 0009024fff735c7408684a73aa8066d5, type: 3}
 --- !u!23 &7014964861868039879
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -140,12 +140,12 @@ GameObject:
   - component: {fileID: 689437971977615460}
   - component: {fileID: 2891582360476566761}
   - component: {fileID: 1071584694627237535}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bath.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &231808496502139000
 Transform:
@@ -168,7 +168,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6655800181051542415}
-  m_Mesh: {fileID: -7393467800981661028, guid: 3857e3746e23a57468455f912a96882c, type: 3}
+  m_Mesh: {fileID: -7393467800981661028, guid: 0009024fff735c7408684a73aa8066d5, type: 3}
 --- !u!23 &2891582360476566761
 MeshRenderer:
   m_ObjectHideFlags: 0
