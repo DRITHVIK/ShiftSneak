@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1132031271}
   - component: {fileID: 1132031272}
-  m_Layer: 15
+  m_Layer: 21
   m_Name: ViewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

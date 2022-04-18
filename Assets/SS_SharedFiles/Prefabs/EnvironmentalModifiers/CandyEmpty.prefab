@@ -514,6 +514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candy005
       objectReference: {fileID: 0}
+    - target: {fileID: 8484288626664046816, guid: 2739cbee0f76a0742855f40cfddaaaa9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9148481145208494682, guid: 2739cbee0f76a0742855f40cfddaaaa9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -532,15 +536,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9148481145208494682, guid: 2739cbee0f76a0742855f40cfddaaaa9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.12560853
       objectReference: {fileID: 0}
     - target: {fileID: 9148481145208494682, guid: 2739cbee0f76a0742855f40cfddaaaa9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.021209639
+      value: 0.021209273
       objectReference: {fileID: 0}
     - target: {fileID: 9148481145208494682, guid: 2739cbee0f76a0742855f40cfddaaaa9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.020133011
+      value: -0.010078158
       objectReference: {fileID: 0}
     - target: {fileID: 9148481145208494682, guid: 2739cbee0f76a0742855f40cfddaaaa9, type: 3}
       propertyPath: m_LocalRotation.w
